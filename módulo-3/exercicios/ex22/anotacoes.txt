@@ -1,0 +1,15 @@
+Para centralizar um conteúdo na vertical, usamos a propriedade
+
+''position: relative;'' na section (container)
+
+e
+
+''position: absolute;'' no article (conteúdo)
+dentro do article {
+    left: 50%;
+    top:50%;
+
+    transform: translate (-50%, -50%)
+}
+
+Dessa forma, o conteúdo será centralizado horizontalmente e verticalmente no meio da tela.
