@@ -1,0 +1,10 @@
+/** hierarquia de tabelas simples **/
+TABLE = tabela
+    TABLE ROW = linha de tabela
+        TABLE DATA = dado de tabela 
+
+/**Alinhamento vertical**/     
+vertical-align: middle;
+
+/**Alinhamento horizontal**/     
+text-align: center;
