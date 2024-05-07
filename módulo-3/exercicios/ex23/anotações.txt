@@ -12,9 +12,17 @@ text-align: center;
 /**Anatomia de Tabelas grandes
 **/
 TABLE
+    CAPTION
     THEAD
         tr, td, th
     TBODY
         tr, td, th
     TFOOT
         tr, td ,th
+
+        /**EFEITO ZEBRADO**/
+        
+             tbody tr:nth-child(2n){
+            background-color: lightgray;
+
+        }   
