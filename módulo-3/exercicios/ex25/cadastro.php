@@ -1,1 +1,0 @@
-Você ainda não aprendeu php.
